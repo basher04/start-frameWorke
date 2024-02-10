@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.start{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+
+li a {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.navbar {
+  background-color: #2C3E50;
+  color: white !important;
+}
+
+.footer{
+  background-color: #2C3E50;
+}
+
+
+.icon{
+  border: white solid 1px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.copyright{
+  background-color: #1A252F;
+}
+
+.starIcon{
+  position: relative;
+}
+
+.starIcon::after {
+  content: "";
+  background-color: white;
+  width: 85px;
+  height: 5px;
+  position: absolute;
+  top: 33%;
+  left: 58%;
+}
+
+.starIcon::before {
+  content: "";
+  background-color: white;
+  width: 85px;
+  height: 5px;
+  position: absolute;
+  top: 33%;
+  right: 58%;
+}
+
+.home {
+  background-color: #1ABC9C;
+}
+
+.navMargin{
+  margin-top: 105px;
+}
+
+.portfolio{
+  color: #2C3E50;
+}
+
+.starIconPortfolio{
+  position: relative;
+}
+
+.starIconPortfolio::after {
+  content: "";
+  background-color: #2C3E50;
+  width: 85px;
+  height: 5px;
+  position: absolute;
+  top: 33%;
+  left: 58%;
+}
+
+.starIconPortfolio::before {
+  content: "";
+  background-color: #2C3E50;
+  width: 85px;
+  height: 5px;
+  position: absolute;
+  top: 33%;
+  right: 58%;
+}
+
+.item{
+  position: relative;
+  cursor: pointer;
+}
+
+.imgCover{
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all .5s;
+}
+
+.item:hover .imgCover{
+  background-color: #1aba9fc7;
+}
+
+
+.plusIcon{
+  font-size: 100px;
+  font-weight: 900;
+  color: transparent;
+  transition: all .5s;
+}
+
+.item:hover .plusIcon{
+  color: #ffffff;
+}
+
+.form-control{
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  padding-bottom: 10px ;
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
